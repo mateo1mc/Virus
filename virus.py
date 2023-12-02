@@ -8,3 +8,5 @@ while b > 0:
     left(b)
     forward(b)
     b = b - 1
+
+mainloop()
