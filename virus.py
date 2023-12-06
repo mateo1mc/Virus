@@ -1,12 +1,13 @@
 from turtle import *
 
-speed(100)
+speed(0)
 color('red')
 bgcolor('black')
 b = 200
+
 while b > 0:
-    left(b)
+    left(120)  # Change the angle to create a better spiral
     forward(b)
-    b = b - 1
+    b -= 1
 
 mainloop()
